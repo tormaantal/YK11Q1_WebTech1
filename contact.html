@@ -1,0 +1,65 @@
+<html lang="hu">
+
+<head>
+    <meta charset='utf-8'>
+    <title>Beadandó</title>
+    <link rel='stylesheet' href='style.css'>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="js.js"></script>
+</head>
+
+<body>
+    <div class="menu">
+        <a href="index.html">Kezdőlap</a>
+        <a href="about.html">Rólunk</a>
+        <a href="#">Kapcsolat</a>
+        <a href="table.html">Tábla</a>
+    </div>
+
+    <div style="margin:auto">
+        <p style="text-align: center;">Lépjen kapcsolatba velünk!</p>
+
+        <form>
+            <table class="contact">
+                <tr>
+                    <td>Név:</td>
+                    <td>
+                        <input type="text" id="name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td>Dátum:</td>
+                    <td>
+                        <input type="date" id="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Neme:</td>
+                    <td>
+                        <input type="radio" name="gender" value="Férfi"><label for="férfi">Férfi</label><br>
+                        <input type="radio" name="gender" value="Nő"><label for="nő">Nő</label> <br>
+                        <input type="radio" name="gender" value="Egyéb"><label for="egyéb">Egyéb</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Megjegyzés:</td>
+                    <td>
+                        <textarea id="textarea" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="button" id="gomb" value="Küldés" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+    </div>
+</body>
+
+</html>

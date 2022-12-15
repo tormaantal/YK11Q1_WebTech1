@@ -1,0 +1,46 @@
+body {
+    background-color: rgba(67, 244, 244, 0.548);
+    margin: 1%;
+
+}
+
+.menu {
+    overflow: hidden;
+    background-color: rgba(1, 171, 163, 0.647);
+    margin: auto;
+    width: fit-content;
+}
+
+.menu a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: rgb(67, 67, 67);
+    color: rgb(255, 255, 255);
+}
+
+.uni1,
+.uni2 {
+    float: left;
+    width: 50%;
+}
+
+#logo {
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.contact {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+
+}
